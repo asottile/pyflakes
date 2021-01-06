@@ -1,3 +1,13 @@
+2.3.0 (2021-01-06)
+
+- Recognize tuple concatenation in ``__all__`` export definitions
+- Better support use of annotation-only assignments when using
+  ``from __future__ import annotations``
+- Recognize special-case typing for ``Annotated``
+- Fix undefined name ``__qualname__`` in class scope
+- Recognize special-cased typing for ``TypeVar``
+- Errors for undefined exports in ``__all__`` are shown in a deterministic order
+
 2.2.0 (2020-04-08)
 
 - Include column information in error messages
